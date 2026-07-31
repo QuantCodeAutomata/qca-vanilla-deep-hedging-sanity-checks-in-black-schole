@@ -1,0 +1,22 @@
+black_scholes:
+  sigma: 0.2
+  r: 0.0
+  S0: 1.0
+  T: 0.0833  # ~1 month = 21 trading days
+  n_steps: 21
+  dt: 0.00397  # T/n_steps
+  K: 1.0  # ATM strike
+  K1: 0.95  # call-spread lower strike
+  K2: 1.05  # call-spread upper strike
+  N_paths: 50000
+  risk_aversion: 1.0
+transaction_costs:
+  epsilon_grid: [0.001, 0.002, 0.005, 0.01, 0.02, 0.05]
+network:
+  n_layers: 4
+  n_units: 32
+  activation: tanh
+optimizer:
+  lr: 0.001
+  n_epochs: 200
+  batch_size: 10000

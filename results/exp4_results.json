@@ -1,0 +1,10 @@
+{
+  "single_measure_utility": -28.6965274810791,
+  "bootstrapped_utility": -28.291711807250977,
+  "uncertainty_aware_utility": -28.291568756103516,
+  "entropy_special_case": {
+    "utility_mixture": -27.214365005493164,
+    "utility_entropy": -27.186195373535156,
+    "match": true
+  }
+}

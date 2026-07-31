@@ -1,0 +1,17 @@
+{
+  "train_under_P": {
+    "y_star": -0.006959906313568354,
+    "utility_P": 0.007029838860034943
+  },
+  "foc_check": {
+    "E_u_prime": 0.999930202960968
+  },
+  "train_under_Q": {
+    "utility_Q": 0.0048354859463870525
+  },
+  "vol_mismatch": {
+    "utility_P_mismatch": 0.006532730534672737,
+    "utility_P_matched": 0.0007238516700454056,
+    "utility_gap": 0.0058088788646273315
+  }
+}
